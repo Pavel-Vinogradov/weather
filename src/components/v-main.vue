@@ -4,7 +4,7 @@
       <input
           type="text"
           class="search-bar"
-          placeholder="Search..."
+          placeholder="Поиск города"
           v-model="query"
           @keypress="fetchWeather"
       />
